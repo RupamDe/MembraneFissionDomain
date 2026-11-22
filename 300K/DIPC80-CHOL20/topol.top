@@ -1,0 +1,16 @@
+#include "toppar/martini_v2.2.itp"
+#include "toppar/martini_v2.0_lipids_all_201506.itp"
+#include "toppar/martini_v2.0_ions.itp"
+#include "toppar/dm.itp"
+
+[ system ]
+BUMPy system
+
+[ molecules ]
+DIPC 2863
+CHOL 689
+W           82139
+NA               1561
+CL               1561
+WF   9167
+DM   1
